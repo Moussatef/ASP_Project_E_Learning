@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #f3f3f3;
+}
+
+/* .weapper  .left{
+    width: 10%;
+    background: linear-gradient(to left ,#01a9ac,#01dbdf);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+
+} */
+/* .weapper  .left img{
+margin-bottom: 10px;
+border-radius: 5px;
+} */
+/* .weapper  .left h4{
+    margin-bottom: 10px;
+} */
+/* .weapper  .left p{
+font-size: 16px;
+} */
+/* .weapper  {
+    max-width: 65%;
+    background: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px 25px;
+} */
+/* .weapper  .right .info {
+    margin-bottom: 15%;
+    
+} */
+/* .weapper  .right .Etud{
+    margin-bottom: 25%;
+    padding-bottom: 25%;
+    
+} */
+
+.weapper     .info-data .data,
+.weapper     .Etud-data .Etud{
+    width: 45%;
+}
+.weapper     .info-data .data h4,
+.weapper     .Etud-data .data h4{
+    color: #353c4e;
+    margin-bottom: 5px;
+}
+.weapper     .info-data .data p,
+.weapper     .Etud-data .data p{
+
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #919aa3;
+    padding-left: 5px;
+}

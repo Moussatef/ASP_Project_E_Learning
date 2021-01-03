@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #f3f3f3;
+}
+.weapper{
+    padding: 20px;
+    margin: 8% auto 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+
+}
+.weapper  .left{
+    width: 20%;
+    background: linear-gradient(to left ,#0c0c0cd3,#5a5a5a);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+
+}
+.weapper  .left img{
+margin-bottom: 10px;
+border-radius: 5px;
+}
+.weapper  .left h4{
+    margin-bottom: 10px;
+}
+.weapper  .left p{
+font-size: 16px;
+}
+.weapper  .right{
+    width: 65%;
+    background: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px 25px;
+}
+.weapper  .right .info , .weapper  .right .Etud{
+    margin-bottom: 25%;
+}
+.weapper  .right .info h3, .weapper  .right .Etud h3{
+    margin-bottom: 10%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #353c4e;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+.weapper  .right   .info-data,
+.weapper  .right   .Etud-data{
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+} 
+.weapper  .right   .info-data .data,
+.weapper  .right   .Etud-data .Etud{
+    width: 45%;
+}
+.weapper  .right   .info-data .data h4,
+.weapper  .right   .Etud-data .data h4{
+    color: #353c4e;
+    margin-bottom: 5px;
+}
+.weapper  .right   .info-data .data p,
+.weapper  .right   .Etud-data .data p{
+
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #919aa3;
+    padding-left: 5px;
+}

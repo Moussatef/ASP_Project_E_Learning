@@ -63,58 +63,82 @@
         <div class="row">
             <div class="col-lg-3 col-md-12 col-sm-12 " style="margin-top: 10px;">
                 <asp:Image ID="imgP" runat="server" class="img-responsive img-circle" Style="width: 160px; height: 160px;margin-left:25px; margin-bottom: 15px;" />
-                <h4 style="border-bottom: 1px solid #e0e0e0 ;position:center;text-align:center;">Professeur </h4>
+                <h4 style="border-bottom: 1px solid #e0e0e0 ;position:center;padding-left:55px;">Professeur </h4>
                 <asp:FileUpload ID="UpModifP" Visible="false" CssClass="filebtn form-control" runat="server" />
                 <asp:Label ID="FilMess" runat="server" Text=""></asp:Label>
             </div>
             <div class="col-lg-9 col-sm-10 col-md-12">
-                <h3 class="col-lg-12 col-md-12 col-sm-12">Information Personel</h3>
-                <div class="form-group col-lg-9 col-md-9 col-sm-9">
-                    <h4>
-                        <label for="nom">Nom : </label>
-                    </h4>
-                    <p>
+                <h3 >Information Personel</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="form-group col-lg-2 col-md-9 col-sm-9">
+                            <h4>
+                                <label for="nom">Nom : </label>
+                            </h4>
+                            <%--<p>
                         <asp:Label ID="lbnom" runat="server" Text=""></asp:Label>
-                    </p>
-                    <asp:TextBox ID="txtNom" CssClass="em form-control" runat="server" Visible="false"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtNom" Display="Dynamic" ErrorMessage="votre nom s'il vous plait !!" ForeColor="#FF5050" SetFocusOnError="True" ValidationGroup="grp"></asp:RequiredFieldValidator>
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ValidationGroup="grp" ControlToValidate="txtNom" Display="Dynamic" ErrorMessage="Char" ForeColor="#FF3300" ValidationExpression="^[a-zA-Z]+$"></asp:RegularExpressionValidator>
+                    </p>--%>
+                            <asp:TextBox ID="txtNom" CssClass="em form-control" runat="server" Visible="false"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtNom" Display="Dynamic" ErrorMessage="votre nom s'il vous plait !!" ForeColor="#FF5050" SetFocusOnError="True" ValidationGroup="grp"></asp:RequiredFieldValidator>
+                            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ValidationGroup="grp" ControlToValidate="txtNom" Display="Dynamic" ErrorMessage="Char" ForeColor="#FF3300" ValidationExpression="^[a-zA-Z]+$"></asp:RegularExpressionValidator>
 
-                </div>
-                <div class="form-group col-lg-9 col-md-9  col-sm-9">
-                    <h4>
-                        <label for="prenom">Prenom : </label>
-                    </h4>
-                    <p>
-                        <asp:Label ID="lbprenom" runat="server" Text=""></asp:Label>
+                        </div>
 
-                    </p>
-                    <asp:TextBox ID="txtPrenom" Visible="false" CssClass="em form-control" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtPrenom" Display="Dynamic" ErrorMessage="votre Prenom s'il vous plait !!" ForeColor="#FF5050" SetFocusOnError="True" ValidationGroup="grp"></asp:RequiredFieldValidator>
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ValidationGroup="grp" ControlToValidate="txtPrenom" Display="Dynamic" ErrorMessage="Char" ForeColor="#FF3300" ValidationExpression="^[a-zA-Z]+$"></asp:RegularExpressionValidator>
+                        <div class="form-group col-lg-4 col-md-9 col-sm-9">
 
-                </div>
-                <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                    <h4>
-                        <label for="email">Email : </label>
-                    </h4>
-                    <p>
-                        <asp:Label ID="lbemail" runat="server" Text=""></asp:Label>
-                    </p>
-                    <asp:TextBox ID="txtEmail" Visible="false" CssClass="em form-control" runat="server"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ErrorMessage="votre Prenom s'il vous plait !!" ForeColor="#FF5050" SetFocusOnError="True" ValidationGroup="grp"></asp:RequiredFieldValidator>
+                            <p>
+                                <asp:Label ID="lbnom" runat="server" Text=""></asp:Label>
+                            </p>
+                        </div>
 
-                </div>
+                        <div class="form-group col-lg-2 col-md-9  col-sm-9">
+                            <h4>
+                                <label for="prenom">Prenom : </label>
+                            </h4>
+                            
+                            <asp:TextBox ID="txtPrenom" Visible="false" CssClass="em form-control" runat="server"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtPrenom" Display="Dynamic" ErrorMessage="votre Prenom s'il vous plait !!" ForeColor="#FF5050" SetFocusOnError="True" ValidationGroup="grp"></asp:RequiredFieldValidator>
+                            <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ValidationGroup="grp" ControlToValidate="txtPrenom" Display="Dynamic" ErrorMessage="Char" ForeColor="#FF3300" ValidationExpression="^[a-zA-Z]+$"></asp:RegularExpressionValidator>
 
-                <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                        </div>
+                        <div class="form-group col-lg-3 col-md-9 col-sm-9">
+
+                            <p>
+                                <asp:Label ID="lbprenom" runat="server" Text=""></asp:Label>
+                            </p>
+                        </div>
+                        <div class="form-group col-lg-2 col-md-12 col-sm-12">
+                            <h4>
+                                <label for="email">Email : </label>
+                            </h4>
+
+                            <asp:TextBox ID="txtEmail" Visible="false" CssClass="em form-control" runat="server"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtEmail" Display="Dynamic" ErrorMessage="votre Prenom s'il vous plait !!" ForeColor="#FF5050" SetFocusOnError="True" ValidationGroup="grp"></asp:RequiredFieldValidator>
+
+                        </div>
+
+                        <div class="form-group col-lg-4 col-md-9 col-sm-9">
+
+                            <p>
+                                <asp:Label ID="lbemail" runat="server" Text=""></asp:Label>
+                            </p>
+                        </div>
+                         <div class="form-group col-lg-2 col-md-12 col-sm-12">
                     <h4>
                         <label for="ville">Ville :  </label>
                     </h4>
-                    <p>
-                        <asp:Label ID="lbville" runat="server" Text=""></asp:Label>
-                    </p>
+                    
                     <asp:DropDownList ID="drville" Class="em form-control" Visible="False" runat="server" DataSourceID="SqlDataSource1" DataTextField="Nom_Ville" DataValueField="ID_ville"></asp:DropDownList>
                 </div>
+
+                        <div class="form-group col-lg-3 col-md-9 col-sm-9">
+                            <p>
+                        <asp:Label ID="lbville" runat="server" Text=""></asp:Label>
+                    </p>
+                        </div>
+                    </div>
+                </div>
+               
                 <div class="form-group col-lg-12 col-md-12 col-sm-12">
                     <h4>Description :
                     </h4>

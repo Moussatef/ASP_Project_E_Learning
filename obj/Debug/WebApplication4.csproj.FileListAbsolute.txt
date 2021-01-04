@@ -12,3 +12,10 @@ C:\Users\21263\Documents\source\repos\WebApplication4\WebApplication4\obj\Debug\
 C:\Users\21263\Documents\source\repos\WebApplication4\WebApplication4\obj\Debug\WebApplication4.csproj.CoreCompileInputs.cache
 C:\Users\21263\Documents\source\repos\WebApplication4\WebApplication4\obj\Debug\WebApplication4.dll
 C:\Users\21263\Documents\source\repos\WebApplication4\WebApplication4\obj\Debug\WebApplication4.pdb
+C:\Users\21263\source\repos\WebApplication4\WebApplication4\bin\WebApplication4.dll.config
+C:\Users\21263\source\repos\WebApplication4\WebApplication4\bin\WebApplication4.dll
+C:\Users\21263\source\repos\WebApplication4\WebApplication4\bin\WebApplication4.pdb
+C:\Users\21263\source\repos\WebApplication4\WebApplication4\obj\Debug\WebApplication4.csprojAssemblyReference.cache
+C:\Users\21263\source\repos\WebApplication4\WebApplication4\obj\Debug\WebApplication4.csproj.CoreCompileInputs.cache
+C:\Users\21263\source\repos\WebApplication4\WebApplication4\obj\Debug\WebApplication4.dll
+C:\Users\21263\source\repos\WebApplication4\WebApplication4\obj\Debug\WebApplication4.pdb

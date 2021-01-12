@@ -128,7 +128,7 @@ namespace WebApplication4
         {
            string strpath = Path.GetExtension(UpModifP.PostedFile.FileName),img=path, fileimg;
             if (strpath != "") { 
-            if (strpath != ".jpg" && strpath != ".JPJ" && strpath != ".png" && strpath != ".PNG" && strpath != ".gif"  && strpath != ".GIF" && strpath != ".JPGE" && strpath != ".jpeg" )
+            if (strpath != ".jpg" && strpath != ".png" && strpath != ".gif" && strpath != ".jpeg")
             {
                 FilMess.Text = "Only Image type .jpg || .jpeg || .gif || .png";
                 FilMess.ForeColor = System.Drawing.Color.Red;

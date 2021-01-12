@@ -108,8 +108,6 @@ namespace WebApplication4
                     Master.profil.Visible = true;
                     Master.profil.Text = " " + Session["NomEtd"];
                     Master.Decx.Visible = true;
-                    LBmotpass.Visible = false;
-                    Label2.Visible = false;
 
                     c.cmd = new SqlCommand(" SELECT formateur.*, Ville.Nom_Ville, Etablissement.Nom_Etb FROM formateur  INNER JOIN Etablissement ON formateur.ID_Etb = Etablissement.ID_Etab INNER JOIN Ville ON formateur.ID_Ville = Ville.ID_ville  where formateur.ID_For=" + Session["Prof_V"], con);
                     con.Open();

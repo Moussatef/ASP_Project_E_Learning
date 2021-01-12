@@ -32,8 +32,8 @@
 
             .weapper .left {
                 width: 100%;
-                height: 370px;
-                background:repeating-linear-gradient(120deg,#4f5050e0 0px,white 450px,hsl(0deg 0% 20%)250px,hsl(0deg 0% 81%));
+                height: 330px;
+                background:repeating-linear-gradient(120deg,white 0px,white 450px,hsl(0deg 0% 20%)250px,hsl(0deg 0% 81%));
                 /*background: linear-gradient(to left,#0c0c0cd3,#5a5a5a,#a8a8a8);*/
                 border-top-left-radius: 5px;
                 border-bottom-left-radius: 5px;
